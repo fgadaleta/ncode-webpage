@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<!-- {% include header_2.html %} -->
+<!-- Slider Start -->
+{% assign header_image = page.thumbnail %}
+
+<section class="page-title header-padding overlay-static" style="
+	background: radial-gradient(circle, rgba(235, 235, 235, 0) 1%, rgba(0, 0, 0, 0.981) 100%),
+	url({% if header_image %}{{header_image}} {% else %} {{site.cover_image}} {% endif %}) 0 0 no-repeat fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	opacity: 0.9;
+	max-height: 976px;
+	">
+
+	<div class="container">
+		<div class="row">
+		  <div class="col-lg-12">
+			<span class="h5 text-uppercase text-yello">{{banner.subtitle}}</span>
+			  <h1 class="text-white mt-2 text-uppercase text-xl  padding-top">{{ page.title }}</h1>
+			  <h4 class="text-white text-uppercase">{{ page.description }}</h4>
+		  </div>
+		</div>
+	  </div>
+</section>
+<!-- Slider End -->
+
+
+<section class="portfolio-single">
+	<div class="container">
+		<div class="row justify-content-center">
+          {{page.content}}
+		</div>
+	</div>
+</section>
+
+<section class="section related-project">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h4 class="mb-5 text-uppercase">Other Projects</h4>
+			</div>
+		</div>
+		<div class="row">
+            {% for portfolio in site.portfolios limit:"4" %}
+			<div class="col-lg-6">
+				<div class="portfolio-block text-center border-0 ">
+				    <img src="{{portfolio.thumbnail}}" class="img-fluid" alt="{{portfolio.title}}"/>
+				    <a class="card-img-overlay" href="{{portfolio.url}}">
+				      <h5 class="card-title text-white mb-0">{{portfolio.title}}</h5>
+				      <p class="card-text text-white text-uppercase text-sm">{{portfolio.category}}</p>
+				    </a>
+				</div>
+			</div>
+            {% endfor %}
+		</div>
+	</div>
+</section>
+
+{% include call_to_action.html %}

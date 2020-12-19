@@ -1,0 +1,80 @@
+.footer-widget{
+
+	color: rgba(255,255,255,.7);
+	.lh-38{
+		line-height: 24px;
+	}
+	ul {
+		li{
+			// padding: 6px 0px;
+			color: rgba(255,255,255,.7);
+			a{
+				color: rgba(255,255,255,.7);
+				text-transform: uppercase;
+				font-size: 14px;
+			}
+		}
+	}
+
+}
+.socials-links{
+	margin-top: 20px;
+	li a {
+		width: 42px;
+		height: 42px;
+		border-radius: 10%;
+		text-align: center;
+		display: inline-block;
+		padding-top: 10px;
+		color: $white;
+		border: 1px solid rgba(255,255,255,.7);
+
+		&:hover{
+			background: $primary-color;
+			border-color: $primary-color;
+			color: $grey-light; // $white!important;
+		}
+	}
+	li a.active{
+		background: $transparent; // $primary-color;
+		border-color: $grey-light; // $primary-color;
+		color:  $grey-light; // $primary-color;  // $white!important;
+	}
+}
+
+.footer-btm{
+	.border-top{
+		border-top: 1px solid rgba(255, 255, 255, 0.2)!important;
+	}
+
+	span,p{
+		color: rgba(255,255,255,.7);
+	}
+	a{
+		color: rgba(255,255,255,.7);
+	}
+}
+
+.dot{
+	width: 7px;
+	height: 7px;
+	border-radius: 100%;
+	background: $primary-color;
+	display: inline-block;
+}
+
+
+
+
+///
+///
+
+.footer-2{
+	background: url("../images/bg/footer-bg.jpg")no-repeat;
+	background-size: cover;
+	color: rgba(255,255,255,.7);
+
+	a{
+		color: rgba(255,255,255,.7);
+	}
+}

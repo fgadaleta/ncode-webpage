@@ -2,13 +2,15 @@
 hero_area:
   background_image : "/assets/images/bg/net-bg-4.jpg"
   subtitle: "ncode"
-  title : "We drink soda. And then we burp it. Loud."
-  content : "The first APIs to monitor, anonymize and work on the data you care the most."
+  title : "Monitor your data"
+  content : "The first APIs to monitor, anonymize and share the data you care the most."
   # image : "/assets/images/banner/banner-img-2.png"
   button:
-    enable : false
-    label : "Services"
-    link : "/services"
+    enable : true
+    label : "Get the Early Access"
+    link : "/invite"
+  terms:
+    content: "By signing up you are agreeing to our Privacy Policy and full Terms of service."
 
 ########################### Service ##############################
 services:

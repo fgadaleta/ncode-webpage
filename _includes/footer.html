@@ -5,7 +5,7 @@
 		<div class="row">
 			<div class="col-lg-3 col-md-6">
 				<div class="footer-widget  mb-5 mb-lg-0">
-					<h4 class="font-weight-bold text-white mb-3">Amethix</h4>
+					<h4 class="font-weight-bold text-white mb-3">ncode</h4>
 					{{site.footer_content | markdownify}}
 
 					<ul class="list-inline socials-links">
@@ -20,7 +20,7 @@
 
 			<div class="col-lg-3 ml-lg-auto mb-5 mb-lg-0 col-md-6">
 				<div class="footer-widget">
-					<h4 class="text-white mb-3 text-md">Navigation</h4>
+					<h4 class="text-white mb-3 text-md">Product</h4>
 
 					<ul class="list-unstyled lh-38">
 						{% for menu in site.data.navigation.footer %}
@@ -29,27 +29,35 @@
 					</ul>
 				</div>
 			</div>
+
 			<div class="col-lg-2 col-md-6">
 				<div class="footer-widget mb-5 mb-lg-0">
-					<h4 class="text-white mb-3 text-md">Solutions</h4>
+					<h4 class="text-white mb-3 text-md">Company</h4>
 					<ul class="list-unstyled lh-38">
-						<li><a href="/portfolios/nlp">NLP</a></li>
-						<li><a href="/portfolios/smart-grid">Energy</a></li>
-						<li><a href="/portfolios/supply-chain ">Supply Chain</a></li>
-						<li><a href="/portfolios/healthcare-pharma">Healthcare</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/about">LinkedIn</a></li>
+						<li><a href="/about">Discord</a></li>
+						<!-- <li><a href="/portfolios/healthcare-pharma">Healthcare</a></li> -->
 					</ul>
 				</div>
 			</div>
+
 			<div class="col-lg-3 col-md-6">
 				<div class="footer-widget">
-					<h4 class="text-white mb-3 text-md">Contact Info</h4>
+					<h4 class="text-white mb-3 text-md">Legal</h4>
 					<ul class="list-unstyled lh-38">
+
+						<li><a href="">Privacy policy </a></li>
+						<li><a href="">Terms of Service </a></li>
+						<li> &nbsp;  </li>
 						<li>{{site.address}}</li>
 						<li><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
 						<li><a href="mailto:{{site.email}}">{{site.email}}</a></li>
 					</ul>
 				</div>
 			</div>
+
+
 		</div>
 	</div>
 

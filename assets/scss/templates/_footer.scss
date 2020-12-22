@@ -1,16 +1,19 @@
 .footer-widget{
-
+	// line-height: 20px;
 	color: rgba(255,255,255,.7);
 	.lh-38{
 		line-height: 24px;
 	}
+
 	ul {
+		line-height: 24px;
+
 		li{
 			// padding: 6px 0px;
 			color: rgba(255,255,255,.7);
 			a{
 				color: rgba(255,255,255,.7);
-				text-transform: uppercase;
+				// text-transform: uppercase;
 				font-size: 14px;
 			}
 		}
@@ -30,15 +33,22 @@
 		border: 1px solid rgba(255,255,255,.7);
 
 		&:hover{
-			background: $primary-color;
-			border-color: $primary-color;
-			color: $grey-light; // $white!important;
+			// background: $primary-color;
+			// border-color: $primary-color;
+			// color: $grey-light; // $white!important;
+
+			background: $transparent; // $primary-color;
+			border-color: $gold;
+			color: $gold;
 		}
 	}
 	li a.active{
 		background: $transparent; // $primary-color;
-		border-color: $grey-light; // $primary-color;
-		color:  $grey-light; // $primary-color;  // $white!important;
+		border-color: $gold;
+		color: $gold;
+		// border-color: $grey-light; // $primary-color;
+		// color:  $grey-light; // $primary-color;  // $white!important;
+
 	}
 }
 

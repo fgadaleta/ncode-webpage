@@ -9,6 +9,10 @@ main:
   #   url: /index-3
   # - name: Home 4
   #   url: /index-4
+- name: Product
+  url: "/product"
+- name: Developers
+  url: "/developers"
 - name: About
   url: "/about"
   # submenu:
@@ -21,24 +25,24 @@ main:
   #   url: https://medium.com/amethix
   # - name: Blog Two
   #   url: /blog-2
-- name: Solutions
-  url: /solutions
-  submenu:
-  - name: NLP
-    url: /portfolios/nlp
-  - name: Energy
-    url: /portfolios/smart-grid
-  - name: Supply-Chain
-    url: /portfolios/supply-chain
-  - name: Healthcare&Pharma
-    url: /portfolios/healthcare-pharma
+# - name: Solutions
+#   url: /solutions
+#   submenu:
+#   - name: NLP
+#     url: /portfolios/nlp
+#   - name: Energy
+#     url: /portfolios/smart-grid
+#   - name: Supply-Chain
+#     url: /portfolios/supply-chain
+#   - name: Healthcare&Pharma
+#     url: /portfolios/healthcare-pharma
 
-- name: Media
-  submenu:
-  - name: Blog
-    url: https://medium.com/amethix
-  - name: Podcast
-    url: https://datascienceathome.com
+# - name: Media
+#   submenu:
+#   - name: Blog
+#     url: https://medium.com/amethix
+#   - name: Podcast
+#     url: https://datascienceathome.com
 
     # - name: Pages
 #   url: /
@@ -51,23 +55,23 @@ main:
 #     url: /portfolio-2
 #   - name: 404
 #     url: /404
-- name: Contact
-  url: /contact
+# - name: Contact
+#   url: /contact
 
 ########## footer menu ###############
 footer:
 - name: Home
   url: /
-- name: Solutions
-  url: /solutions
-- name: Blog
-  url: https://medium.com/amethix
-- name: Podcast
-  url: https://datascienceathome.com
-- name: About Us
+- name: Product
+  url: /product
+- name: Developers
+  url: /developers
+# - name: Blog
+#   url: https://medium.com/amethix
+- name: About
   url: /about
-- name: Contact
-  url: /contact
+# - name: Contact
+#   url: /contact
 
 ############## Bottom menu ###############
 bottom:

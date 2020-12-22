@@ -5,14 +5,14 @@ email: "hello@ncode.ai"
 phone: "+32 478 99 89 36"
 address: "London, UK"
 author: ncode
-description: "ncode. Connect. Monitor. Share. Confidential data."
-logo: "/assets/images/amethix-logo-header-webpage.png"
-logo_icon: "/assets/images/logo-b.png"
+description: "ncode. Connect. Monitor. Share. Private data."
+logo: "/assets/images/logo.png"
+logo_icon: "/assets/images/logo.png"
 # contact form action
 contact_form_action: "https://formspree.io/f/xpvralvx" # works with https://fomrspree.io
 mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
-footer_content: "We drink soda. And then we burp it."
-copyright : "ncode &copy; 2020 All Right Reserved"
+footer_content: "Connect. Monitor. Share. Data."
+copyright : "ncode &copy; 2021 All Right Reserved"
 # page header default image
 cover_image: "/assets/images/bg/about-bg.jpg"
 google_map_api: "https://maps.googleapis.com/maps/api/js?key=AIzaSyDnh74UN6BKgq9U5fMNGhdZOSpmM_QnZqs"

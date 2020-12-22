@@ -114,13 +114,18 @@ and (max-device-width : 812px) {
 	}
 }
 
-.text-lg{
-	font-size: 3.5em;
-	line-height: 1em;
-	font-weight: bold;
-	text-transform: uppercase;;
-	letter-spacing: 0.2px;
+.text-sm {
+	font-size: 1.3em;
+	text-transform: None;
+	// line-height: 1.5;
+	// margin-bottom: 20px;
+	line-height: 25px;
+}
 
+.text-lg{
+	font-size: 3.0em;
+	line-height: 1em;
+	letter-spacing: 1px;
 }
 
 

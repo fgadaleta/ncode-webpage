@@ -2,8 +2,8 @@
 hero_area:
   background_image : "/assets/images/bg/net-bg-4.jpg"
   subtitle: "ncode"
-  title : "Monitor your data"
-  content : "The first APIs to monitor, anonymize and share the data you care the most."
+  title : "Know your data, unlock the value"
+  content : "All-in-one APIs to monitor, protect and collaborate on data."
   # image : "/assets/images/banner/banner-img-2.png"
   button:
     enable : true

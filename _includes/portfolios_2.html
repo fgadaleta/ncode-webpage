@@ -1,48 +1,100 @@
 <!-- overview Start -->
 {% assign team = site.data.homepage_2.team %}
 
+<link href="https://fonts.googleapis.com/css?family=Fira+Mono">
+
 
 <section class="pt200 section portfolio-2">
   <div class="container">
 
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h3 class="">Connect. Monitor. Transform.</h3>
+				<h3 class="">Monitor. Protect. Collaborate.</h3>
 			</div>
 		</div>
 
     <div class="row">
       <div class="col-lg-12 text-center">
         <div class="mb-4 mt-2 text-center text-sm">
-          Connect your data and monitor as they change. <br />
-          Transform your data and share them while preserving privacy.</div>
+          Connect your data and monitor as it changes. <br />
+          Transform your data and share it while preserving privacy.</div>
       </div>
     </div>
 
     <div class="row shuffle-wrapper1 portfolio-gallery1">
 
-      {% for item in team.item %}
-      <div class="col-lg-6 col-6 mb-4 shuffle-item card border-0 rounded-0 shadow-lg">
+
+       <div class="col-lg-4 col-4 mb-4 shuffle-item card border-0 rounded-0 shadow-lg">
         <div class="position-relative inner-box">
           <div class="image position-relative text-center">
 
-                <div class="team-item position-relative">
-                  <div class="text-center p-4">
-                    something here some code and explanation <br />
-                    something here some code and explanation <br />
-                    something here some code and explanation <br />
-                    something here some code and explanation <br />
-                    something here some code and explanation <br />
-                  </div>
-                </div>
+            <div class="team-item position-relative">
+              <h4>explanation text bubble 1</h4>
+              <p>__</p>
+            </div>
+
+            <div class="team-item position-relative">
+              <h4>explanation text bubble 2</h4>
+              <p>__</p>
+            </div>
+
+            <div class="team-item position-relative">
+              <h4>explanation text bubble 3</h4>
+              <p>__</p>
+            </div>
 
           </div>
         </div>
       </div>
-      {% endfor %}
 
-    </div>
+
+      <div class="col-lg-8 col-8 mb-4 shuffle-item card border-0 rounded-0 shadow-lg">
+        <div class="position-relative inner-box">
+          <div class="image position-relative text-center">
+                <div class="team-item position-relative">
+                  <!-- the termynal container -->
+                  <div id="termynal" data-termynal>
+                      <span data-ty="input">ncode login</span>
+                      <!-- <span data-ty="progress"></span>  -->
+                      <span data-ty>Successfully logged in. Welcome to ncode!</span>
+                      <span data-ty></span>
+                      <span data-ty="input">ncode data --all</span>
+                      <span data-ty="progress"></span>
+                      <span data-ty>_______________________________________</span>
+                      <span data-ty>id: 0x1234</span>
+                      <span data-ty>"type: "local"</span>
+                      <span data-ty>"filename: "financial_transactions.csv"</span>
+                      <span data-ty>_______________________________________</span>
+                      <span data-ty>id: 0x8797234349</span>
+                      <span data-ty>"type: "local"</span>
+                      <span data-ty>"filename: "insurance_dossiers.csv"</span>
+                      <span data-ty>_______________________________________</span>
+                      <span data-ty="input">ncode alerts --data 0x8797234349</span>
+                      <span data-ty="progress"></span>
+                      <!-- <span data-ty>_________________________________</span> -->
+                      <span data-ty="input1" data-ty-prompt="&nbsp;&nbsp;->">alert id: AL12349999</span>
+                      <span data-ty="input1" data-ty-prompt="&nbsp;&nbsp;->">"timestamp: "27-12-2020 8:44:12AM"</span>
+                      <span data-ty="input1" data-ty-prompt="&nbsp;&nbsp;->">"type": "columns"</span>
+                      <span data-ty="input1" data-ty-prompt="&nbsp;&nbsp;->">"colname": "amount"</span>
+                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;->">"message: "Column 'amount' has been renamed to 'balance' "</span>
+                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;"></span>
+
+                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;->">alert id: AL75654784</span>
+                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;->">"timestamp: "27-12-2020 8:45:51AM"</span>
+                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;->">"type: "stats"</span>
+                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;->">"colname": "spending_amounts"</span>
+                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;->">"message": "Detected statistical drift (similarity=85%)"</span>
+                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;"></span>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+
   </div>
 </section>
+
+<!-- include and initialise termynal.js -->
+<script src="/assets/js/termynal.js" data-termynal-container="#termynal"></script>
 <!-- overview End -->
 

@@ -11,7 +11,8 @@
 					<ul class="list-inline socials-links">
 						{% for social in site.social %}
 						<li class="list-inline-item mb-2">
-							<a target="_blank" href="{{social.link}}" class="active"><i class="{{social.icon}}"></i></a>
+							<a target="_blank" href="{{social.link}}" class="active">
+								<i class="{{social.icon}}"></i></a>
 						</li>
 						{% endfor %}
 					</ul>
@@ -50,8 +51,8 @@
 						<li><a href="">Privacy policy </a></li>
 						<li><a href="">Terms of Service </a></li>
 						<li> &nbsp;  </li>
-						<li>{{site.address}}</li>
-						<li><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
+						<!-- <li>{{site.address}}</li> -->
+						<!-- <li><a href="tel:{{site.phone}}">{{site.phone}}</a></li> -->
 						<li><a href="mailto:{{site.email}}">{{site.email}}</a></li>
 					</ul>
 				</div>

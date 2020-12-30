@@ -1,6 +1,32 @@
 .team-item{
 	overflow: hidden;
+    color: red;
 }
+
+.team-bubble {
+    text-align: left;
+    background: #F7F7F7;
+    padding: 20px;
+    // color: #fff;
+    // font-family: arial;
+    position:relative;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-radius: .4em;
+    border-bottom: 0;
+    border-left: 0;
+    margin: 50px auto;
+    margin-left: -12.5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    vertical-align: middle;
+}
+
+.shaded {
+}
+
 .team-overlay-content {
 	position: absolute;
 	width: 70%;

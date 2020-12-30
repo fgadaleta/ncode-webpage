@@ -122,9 +122,16 @@ and (max-device-width : 812px) {
 	line-height: 25px;
 }
 
-.text-lg{
+.text-lg {
 	font-size: 3.0em;
 	line-height: 1em;
+	letter-spacing: 1px;
+}
+
+.text-emphasis {
+	font-size: 2.5em;
+	text-transform: None;
+	line-height: 1.2em;
 	letter-spacing: 1px;
 }
 
@@ -171,4 +178,21 @@ and (max-device-width : 812px) {
 
 .text-black{
 	color: $black;
+}
+
+
+.vl {
+  text-align: center;
+  border-left: 1px solid #cc8d153d;
+  height: 80px;
+  position: relative;
+  left: 50%;
+  // margin-left: -3px;
+  //top: 0;
+}
+
+.paragraph {
+	text-align: justify;
+	margin-left: 150px;
+	margin-right: 150px;
 }

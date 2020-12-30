@@ -4,11 +4,16 @@ hero_area:
   subtitle: "ncode"
   title : "Know your data, unlock the value"
   content : "All-in-one APIs to monitor, protect and collaborate on data."
-  # image : "/assets/images/banner/banner-img-2.png"
+  image : "/assets/images/banner/banner-img-2.png"
+  enable : true
   button:
     enable : true
     label : "Get the Early Access"
-    link : "/invite"
+    link : "https://discord.gg/g5deGD452c"
+  button_survey:
+    enable : true
+    label : "Get the Early Access"
+    link : "https://forms.gle/CqpKkuiKsUw5Kmu86"
   terms:
     content: "By signing up you are agreeing to our Privacy Policy and full Terms of service."
 
@@ -49,7 +54,6 @@ testimonial:
     image : "/assets/images/team/test-3.jpg"
     content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."
 
-
 ######################## count down  ########################
 funfacts:
   enable : true
@@ -70,7 +74,6 @@ funfacts:
   - name : "awards win"
     icon : "/assets/images/icons/customer-light.png"
     value : "CUSTOM SOLUTIONS"
-
 
 overview_top:
   enable : true

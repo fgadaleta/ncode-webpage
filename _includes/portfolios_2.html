@@ -3,10 +3,10 @@
 
 <link href="https://fonts.googleapis.com/css?family=Fira+Mono">
 
+<div id="product"></div>
 
 <section class="pt200 section portfolio-2">
   <div class="container">
-
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<h3 class="">Monitor. Protect. Collaborate.</h3>
@@ -24,23 +24,28 @@
     <div class="row shuffle-wrapper1 portfolio-gallery1">
 
 
-       <div class="col-lg-4 col-4 mb-4 shuffle-item card border-0 rounded-0 shadow-lg">
+       <div class="col-lg-4 col-4 mb-4 shuffle-item cardX border-0 rounded-0 shadow-lgX">
         <div class="position-relative inner-box">
           <div class="image position-relative text-center">
 
-            <div class="team-item position-relative">
-              <h4>explanation text bubble 1</h4>
-              <p>__</p>
+            <div class="team-item team-bubble position-relative">
+              <h4>Connect data</h4>
+              <p>Connect and profile data stored locally or remotely via our official agent.</p>
             </div>
 
-            <div class="team-item position-relative">
-              <h4>explanation text bubble 2</h4>
-              <p>__</p>
+            <div class="team-item team-bubble position-relative">
+              <h4>Monitor data quality</h4>
+              <p>Know your data quality. Ensure data integrity through monitoring. Now you are ready to unlock more ncode features.</p>
             </div>
 
-            <div class="team-item position-relative">
-              <h4>explanation text bubble 3</h4>
-              <p>__</p>
+            <div class="team-item team-bubble position-relative shaded">
+              <h4>Protect data assets</h4>
+              <p>Private data is protected via transformation into machine readable (ncoded) or synthetic formats.</p>
+            </div>
+
+            <div class="team-item team-bubble position-relative">
+              <h4>Collaborate on <br />data-driven projects</h4>
+              <p>Work on data in secured format within own, third party or ncode environments.</p>
             </div>
 
           </div>
@@ -48,7 +53,7 @@
       </div>
 
 
-      <div class="col-lg-8 col-8 mb-4 shuffle-item card border-0 rounded-0 shadow-lg">
+      <div class="col-lg-8 col-8 mb-4 shuffle-item card border-0 rounded-0 shadow-lgX">
         <div class="position-relative inner-box">
           <div class="image position-relative text-center">
                 <div class="team-item position-relative">
@@ -56,35 +61,67 @@
                   <div id="termynal" data-termynal>
                       <span data-ty="input">ncode login</span>
                       <!-- <span data-ty="progress"></span>  -->
-                      <span data-ty>Successfully logged in. Welcome to ncode!</span>
+                      <span data-ty>-------------------------------------------------- <br />
+                        Successfully logged in.<br /> Welcome to ncode!   <br />
+                        -------------------------------------------------- <br />
+                      </span>
+
                       <span data-ty></span>
                       <span data-ty="input">ncode data --all</span>
-                      <span data-ty="progress"></span>
-                      <span data-ty>_______________________________________</span>
-                      <span data-ty>id: 0x1234</span>
-                      <span data-ty>"type: "local"</span>
-                      <span data-ty>"filename: "financial_transactions.csv"</span>
-                      <span data-ty>_______________________________________</span>
-                      <span data-ty>id: 0x8797234349</span>
+
+                      <span data-ty>Found 1 data source</span>
+                      <span data-ty>___________________________________________</span>
+                      <span data-ty>id: 0x1234<br />"type: "local"<br />filename: "financial_transactions.csv" </span>
+<!--                       <span data-ty>"type: "local"</span>
+                      <span data-ty>"filename: "financial_transactions.csv"</span> -->
+                      <span data-ty>___________________________________________</span>
+<!--                  <span data-ty>id: 0x8797234349</span>
                       <span data-ty>"type: "local"</span>
                       <span data-ty>"filename: "insurance_dossiers.csv"</span>
-                      <span data-ty>_______________________________________</span>
-                      <span data-ty="input">ncode alerts --data 0x8797234349</span>
-                      <span data-ty="progress"></span>
-                      <!-- <span data-ty>_________________________________</span> -->
-                      <span data-ty="input1" data-ty-prompt="&nbsp;&nbsp;->">alert id: AL12349999</span>
-                      <span data-ty="input1" data-ty-prompt="&nbsp;&nbsp;->">"timestamp: "27-12-2020 8:44:12AM"</span>
-                      <span data-ty="input1" data-ty-prompt="&nbsp;&nbsp;->">"type": "columns"</span>
-                      <span data-ty="input1" data-ty-prompt="&nbsp;&nbsp;->">"colname": "amount"</span>
-                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;->">"message: "Column 'amount' has been renamed to 'balance' "</span>
-                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;"></span>
+                      <span data-ty>_______________________________________</span> -->
 
-                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;->">alert id: AL75654784</span>
-                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;->">"timestamp: "27-12-2020 8:45:51AM"</span>
-                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;->">"type: "stats"</span>
-                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;->">"colname": "spending_amounts"</span>
-                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;->">"message": "Detected statistical drift (similarity=85%)"</span>
-                      <span data-ty="input" data-ty-prompt="&nbsp;&nbsp;"></span>
+                      <span data-ty></span>
+                      <span data-ty="input">ncode alerts --data 0x1234</span>
+                      <span data-ty>Generating alerts... </span>
+                      <span data-ty="progress"></span>
+                      <span data-ty>Generated 2 alerts for data source 0x1234</span>
+
+                      <!--
+                      <span data-ty="progress"></span>
+                      -->
+
+                      <span data-ty>___________________________________________</span>
+
+                      <span data-ty>
+                        &nbsp;&nbsp;-> "alert id": AL12349999<br />
+                        &nbsp;&nbsp;-> "timestamp: "27-12-2020 8:44:12AM"<br />
+                        &nbsp;&nbsp;-> "type": "columns"<br />
+                        &nbsp;&nbsp;-> "colname": "amount"<br />
+                        &nbsp;&nbsp;-> "message: "Column 'amount' has been renamed to 'balance' "<br />
+                      </span>
+                      <span data-ty>___________________________________________</span>
+                      <span data-ty>
+                        &nbsp;&nbsp;-> "alert id": AL75654784 <br />
+                        &nbsp;&nbsp;-> "timestamp: "27-12-2020 8:45:51AM"<br />
+                        &nbsp;&nbsp;-> "type": "stats"<br />
+                        &nbsp;&nbsp;-> "colname": "spending_amounts"<br />
+                        &nbsp;&nbsp;-> "message: "Detected statistical drift (similarity=85%)"<br />
+                      </span>
+
+                      <!-- <span data-ty data-ty-prompt="&nbsp;&nbsp;->">"timestamp: "27-12-2020 8:44:12AM"</span>
+                      <span data-ty data-ty-prompt="&nbsp;&nbsp;->">"type": "columns"</span>
+                      <span data-ty data-ty-prompt="&nbsp;&nbsp;->">"colname": "amount"</span>
+                      <span data-ty data-ty-prompt="&nbsp;&nbsp;->">"message: "Column 'amount' has been renamed to 'balance' "</span>
+                      <span data-ty data-ty-prompt="&nbsp;&nbsp;"></span>
+                      -->
+
+                      <!-- <span data-ty data-ty-prompt="&nbsp;&nbsp;->">alert id: AL75654784</span>
+                      <span data-ty data-ty-prompt="&nbsp;&nbsp;->">"timestamp: "27-12-2020 8:45:51AM"</span>
+                      <span data-ty data-ty-prompt="&nbsp;&nbsp;->">"type: "stats"</span>
+                      <span data-ty data-ty-prompt="&nbsp;&nbsp;->">"colname": "spending_amounts"</span>
+                      <span data-ty data-ty-prompt="&nbsp;&nbsp;->">"message": "Detected statistical drift (similarity=85%)"</span>
+                      <span data-ty data-ty-prompt="&nbsp;&nbsp;"></span> -->
+
                   </div>
                 </div>
           </div>

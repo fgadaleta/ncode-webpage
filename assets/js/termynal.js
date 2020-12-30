@@ -35,9 +35,9 @@ class Termynal {
         this.typeDelay = options.typeDelay
             || parseFloat(this.container.getAttribute(`${this.pfx}-typeDelay`)) || 90;
         this.lineDelay = options.lineDelay
-            || parseFloat(this.container.getAttribute(`${this.pfx}-lineDelay`)) || 500;
+            || parseFloat(this.container.getAttribute(`${this.pfx}-lineDelay`)) || 250;
         this.progressLength = options.progressLength
-            || parseFloat(this.container.getAttribute(`${this.pfx}-progressLength`)) || 40;
+            || parseFloat(this.container.getAttribute(`${this.pfx}-progressLength`)) || 20;
         this.progressChar = options.progressChar
             || this.container.getAttribute(`${this.pfx}-progressChar`) || '█';
         this.progressPercent = options.progressPercent

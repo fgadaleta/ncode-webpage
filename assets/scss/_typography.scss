@@ -21,6 +21,20 @@ body {
 p{
   color: $black-light;
 }
+
+.ncode {
+  // text-decoration: underline;
+  display: inline;
+}
+
+.ncode::first-letter {
+  font-weight: 700;
+  // font-size: 200%;
+  // color: #8A2BE2;
+  text-decoration: underline;
+
+}
+
 h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
   font-family: $heading-font;
   color: #222530;
@@ -32,8 +46,6 @@ h1 ,.h1{
   text-transform: capitalize;
   font-size: 60px;
   font-weight: bold;
-
-
 }
 
 h2,.h2 {
@@ -49,7 +61,7 @@ h3,.h3 {
 }
 
 h4,.h4 {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 30px;
   // font-size: 18px;
   // line-height: 30px;

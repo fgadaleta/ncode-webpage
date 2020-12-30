@@ -1,17 +1,18 @@
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://ncode.ai" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
-title: "ncode. Connect. Monitor. Share. Data."
+title: "ncode. Monitor. Protect. Collaborate."
 email: "hello@ncode.ai"
 phone: "+32 478 99 89 36"
 address: "London, UK"
 author: ncode
-description: "ncode. Connect. Monitor. Share. Private data."
+description: "ncode. Monitor. Protect. Collaborate."
 logo: "/assets/images/logo.png"
+logo_dark: "/assets/images/logo_dark.png"
 logo_icon: "/assets/images/logo.png"
 # contact form action
 contact_form_action: "https://formspree.io/f/xpvralvx" # works with https://fomrspree.io
 mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
-footer_content: "Connect. Monitor. Share. Data."
+footer_content: "Monitor. Protect. Collaborate."
 copyright : "ncode &copy; 2021 All Right Reserved"
 # page header default image
 cover_image: "/assets/images/bg/about-bg.jpg"
@@ -31,19 +32,19 @@ cta:
 social:
 - name: github
   icon: "ti-github"
-  link: "https://github.com/ncode"
+  link: "https://github.com/fgadaleta/ncode-agent/"
 
 # - name: twitter
 #   icon: "ti-twitter-alt"
 #   link: "#"
 
-- name: linkedin
-  icon: "ti-linkedin"
-  link: "https://www.linkedin.com/company/12635696"
+# - name: linkedin
+#   icon: "ti-linkedin"
+#   link: "https://www.linkedin.com/company/12635696"
 
-- name: facebook
-  icon: "ti-facebook"
-  link: "https://www.facebook.com/amethixtech"
+# - name: facebook
+#   icon: "ti-facebook"
+#   link: "https://www.facebook.com/amethixtech"
 
 
 # Build settings

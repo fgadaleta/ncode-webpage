@@ -3,6 +3,17 @@
   max-height: 350px;
 }
 
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px) {
+  .card {
+    padding: 10px;
+    max-height: 750px;
+  }
+
+
+}
+
 .banner {
   background: url("../images/banner/banner.jpg") center center no-repeat;
   background-size: cover;

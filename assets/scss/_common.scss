@@ -168,6 +168,21 @@ and (max-device-width : 812px) {
 	}
 
 
+	.col-4 {
+		flex: none;
+		max-width: 100%;
+	}
+
+	.col-8 {
+		flex: none;
+		max-width: 100%;
+	}
+
+	.card {
+		word-wrap: unset;
+		padding: 10px;
+	}
+
 
 }
 

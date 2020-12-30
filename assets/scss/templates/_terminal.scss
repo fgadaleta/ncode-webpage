@@ -27,6 +27,30 @@
             box-sizing: border-box;
 }
 
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px) {
+
+    [data-termynal] {
+
+    font-size: 10px;
+    width: 750px;
+    max-width: 100%;
+    text-align: left;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+    border-radius: 4px;
+    padding: 55px 13px 42px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+}
+
+
 [data-termynal]:before {
     content: '';
     position: absolute;

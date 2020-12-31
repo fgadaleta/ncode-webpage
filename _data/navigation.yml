@@ -10,9 +10,9 @@ main:
   # - name: Home 4
   #   url: /index-4
 - name: Product
-  url: "#product"
-- name: Developers
-  url: "https://github.com/fgadaleta/ncode-agent"
+  url: "/#product"
+# - name: Developers
+#   url: "https://github.com/fgadaleta/ncode-agent"
 - name: About
   url: "/about"
   # submenu:
@@ -63,9 +63,9 @@ footer:
 - name: Home
   url: /
 - name: Product
-  url: /product
-- name: Developers
-  url: https://github.com/fgadaleta/ncode-agent
+  url: /#product
+- name: Developers (coming soon)
+  url: /
 # - name: Blog
 #   url: https://medium.com/amethix
 - name: About

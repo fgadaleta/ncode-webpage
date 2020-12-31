@@ -1,7 +1,7 @@
 #Please use the main menu items under the "name"
 main:
 - name: Home
-  url: /
+  url: https://ncode.ai
   # submenu:
   # - name: Home 2
   #   url: /index-2
@@ -61,7 +61,7 @@ main:
 ########## footer menu ###############
 footer:
 - name: Home
-  url: /
+  url: https://ncode.ai
 - name: Product
   url: /#product
 - name: Developers (coming soon)

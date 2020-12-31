@@ -183,8 +183,69 @@ and (max-device-width : 812px) {
 		padding: 10px;
 	}
 
+}
+
+@media only screen and (min-width: 360px) {
+
+
+	.navbar-nav {
+		top: 42px;
+		left: 0;
+		margin-top: 20px;
+		// display: block;
+		width: 100%;
+		background-color: rgba(44,44,44,0.6);
+		padding: 42px;
+		// flex-direction: column;
+		// position: fixed;
+		z-index: 1;
+		transition: 0.5s;
+		// position: static;
+		// list-style-type: none;
+		// margin: 0;
+		// padding: 0;
+		position: absolute;
+	}
+
+	.col-lg-6 {
+		max-width: 100%;
+	}
+
+	.col-lg-12 {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.col-6 {
+		flex: 0 0 100%;
+	}
+
+
+	.col-4 {
+		flex: none;
+		max-width: 100%;
+	}
+
+	.col-8 {
+		flex: none;
+		max-width: 100%;
+	}
+
+	.card {
+		word-wrap: unset;
+		padding: 10px;
+	}
+
 
 }
+
+
+
+
+
+
+
+
 
 
 .container-fluid-short {

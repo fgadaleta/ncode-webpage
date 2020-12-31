@@ -10,9 +10,16 @@ and (max-device-width : 812px) {
     padding: 10px;
     max-height: 750px;
   }
-
-
 }
+
+
+@media only screen and (min-width: 360px) {
+.card {
+    padding: 1em;
+    max-height: 750px;
+  }
+}
+
 
 .banner {
   background: url("../images/banner/banner.jpg") center center no-repeat;

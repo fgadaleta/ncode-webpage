@@ -6,9 +6,9 @@ phone: "+32 478 99 89 36"
 address: "London, UK"
 author: ncode
 description: "ncode. Monitor. Protect. Collaborate."
-logo: "/assets/images/logo_light.png"
-logo_dark: "/assets/images/logo_dark.png"
-logo_icon: "/assets/images/logo_light.png"
+logo: "assets/images/logo_light.png"
+logo_dark: "assets/images/logo_dark.png"
+logo_icon: "assets/images/logo_light.png"
 
 # contact form action
 contact_form_action: ""
@@ -17,7 +17,7 @@ footer_content: "Monitor. Protect. Collaborate."
 copyright : "ncode &copy; 2021 All Right Reserved"
 
 # page header default image
-cover_image: "/assets/images/bg/about-bg.jpg"
+cover_image: "assets/images/bg/about-bg.jpg"
 google_map_api: ""
 google_analytics: "UA-37903879-8"
 

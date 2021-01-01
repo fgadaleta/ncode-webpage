@@ -25,7 +25,7 @@ google_analytics: "UA-37903879-8"
 cta:
   enable : true
   title : "Let's make your business smarter"
-  bg_image : "/assets/images/bg/cta-bg-2.png"
+  bg_image : "assets/images/bg/cta-bg-2.png"
   button:
     label : "get a quote"
     link : "contact"

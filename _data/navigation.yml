@@ -61,15 +61,15 @@ main:
 ########## footer menu ###############
 footer:
 - name: Home
-  url: /
+  url: https://ncode.ai
 - name: Product
   url: /#product
 - name: Developers (coming soon)
   url: /
 # - name: Blog
 #   url: https://medium.com/amethix
-- name: About
-  url: /about
+# - name: About
+#   url: /about
 # - name: Contact
 #   url: /contact
 
